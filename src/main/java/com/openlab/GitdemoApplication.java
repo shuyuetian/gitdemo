@@ -11,4 +11,8 @@ public class GitdemoApplication {
         SpringApplication.run(GitdemoApplication.class, args);
     }
 
+    public void add(Integer id){
+        System.out.println("添加用户success");
+    }
+
 }
