@@ -10,10 +10,8 @@ public class GitdemoApplication {
         System.out.print("git修改");
         SpringApplication.run(GitdemoApplication.class, args);
     }
-	public String add(User user){
-		System.out.println("添加用户成功");
 
-    public void add(Integer id){
+    public void add(Integer Inid){
         System.out.println("添加用户success");
     }
 
